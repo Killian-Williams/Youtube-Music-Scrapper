@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 from pytube import YouTube
 
-api_key = "AIzaSyC-va4e-2BfSm6ifLu-1oo0Te2HSdy5Jeg"
+api_key = "[YOUR_KEY]"
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Get playlist items
